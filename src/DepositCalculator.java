@@ -12,11 +12,11 @@ public class DepositCalculator {
     }
 
     double round(double value, int places) {
-        double Scale = Math.pow(10, places);
+        double Scale = Math.pow(10, places); // переменную Scale лучше переименовать в scale
         return Math.round(value * Scale) / Scale;
     }
 
-    void calculateDeposit() {
+    void calculateDeposit() { // имена переменных и методов указаны просто и понятно, замечаний нет
         int period;
         int userChoice;
 
