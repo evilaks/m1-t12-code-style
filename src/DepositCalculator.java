@@ -6,6 +6,7 @@ public class DepositCalculator {
         double result = amount * Math.pow((1 + yearRate / 12), 12 * depositPeriod);
         return round(result, 2);
     }
+
     double calculateSimplePercent(double amount, double yearRate, int depositPeriod) {
         return round(amount + amount * yearRate * depositPeriod, 2);
     }
