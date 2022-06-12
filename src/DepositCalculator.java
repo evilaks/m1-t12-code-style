@@ -16,7 +16,7 @@ public class DepositCalculator {
         return Math.round(value * Scale) / Scale;
     }
 
-    void calculateDeposit( ) {
+    void calculateDeposit() {
         int period;
         int action;
 
